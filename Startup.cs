@@ -22,7 +22,7 @@ public class Startup
   public void ConfigureServices(IServiceCollection services)
   {
     ConfigureCors(services);
-    // ConfigureAuth(services);
+    ConfigureAuth(services);
     services.AddControllers();
     services.AddSwaggerGen(c =>
     {
