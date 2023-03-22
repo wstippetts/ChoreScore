@@ -7,7 +7,7 @@ using Microsoft.AspNetCore.Mvc;
 namespace ChoreScore.Controllers;
 
 [ApiController]
-[Route("api/[controller]")]
+[Route("api/Chores")]
 public class ChoresController : ControllerBase
 {
   private readonly ChoresService _choresService;
